@@ -1,0 +1,131 @@
+body,a,li,p,font,b,h1,h2,h3,strong,td {
+        font-family:verdana, helvetica,arial,tahoma,sans-serif;
+        text-decoration:none;
+}
+body {
+        color: #333333;
+        background: white;
+        padding: 0px;
+        margin:0px;
+        font-size:90%;
+}
+a,a:link,a:visited,a:active {
+    color: #002A4E;
+    background: white;
+    text-decoration:underline;
+    display: inline;
+}
+a:hover {
+    color: #002A4E;
+    background: white;
+    text-decoration: None;
+}
+
+div.entry {
+    margin-bottom: 2em;
+}
+
+.alert {
+    color: #BB3333;
+    font-weight: bold;
+}
+
+span.date {
+    color: #002A4E;
+    background: white;
+    font-weight: bold;
+}
+
+.anot {
+    color: gray;
+    background: white;
+    font-size:80%;
+}
+
+div#infobox {
+    float:right;
+    display:inline;
+    border:1px solid gray;
+    color: #333333;
+    background: #eeeeee; 
+    margin:0.2em;
+    padding:0px;
+    
+}
+
+div#infobox p {
+    margin:1em;
+}
+
+div#infobox a, div#infobox a:link, div#infobox a:visited, div#infobox a:active{
+    color: #002A4E;
+    background: #eeeeee;
+}
+
+div#infoboxhead {
+    font-weight: bold;
+    border-bottom:1px solid gray;
+    color: #333333;
+    background: #dddddd;
+    margin:0px;
+    padding:0.1em;
+    padding-left:1em;
+    
+}
+
+div#header {
+    font-size:90%;
+    text-align:right;
+    color:#ffffff;
+    background: #426794;
+    border-bottom: 1px solid #002A4E;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+    padding-right: 1em;
+    margin:0px;
+    margin-bottom:1em;
+}
+div#headerlogo {
+    display:inline;
+    left:1em;
+    position:absolute;
+}
+div#headernavi {
+    display:inline;
+    margin:0.5em;
+}
+div#header A, div#header A:link, div#header a:visited, div#header a:active {
+    color: #ffffff;
+    background: #426794;
+    font-weight: bold;
+    text-decoration:none;
+    border:none;
+    padding:0.3em;
+}
+div#header a:hover {
+    color: white;
+    background: #365478;
+}
+
+div#content {
+    padding:1em;
+    margin-bottom:2em;
+}
+
+div.notsowide {
+    max-width:50em;
+    margin-left:5em;
+}
+
+div#footer {
+    text-align:center;
+    font-size:70%;
+    color:#666;
+    background:white;
+    padding:1em;
+    margin-top:5em;
+}
+
+img {
+    border: none;
+}
